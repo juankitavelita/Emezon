@@ -1,0 +1,75 @@
+footer {
+    background-color: #232f3e;
+    color: #fff;
+    padding: 20px;
+    font-size: 14px;
+  }
+  
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-top img {
+    height: 50px;
+  }
+  
+  .social-media a {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .social-media a:hover {
+    color: #f90;
+  }
+  
+  .footer-menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-menu li {
+    margin-right: 20px;
+  }
+  
+  .footer-menu a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-menu a:hover {
+    color: #f90;
+  }
+  
+  .payment-methods {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .payment-methods i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .shipping {
+    display: flex;
+    align-items: center;
+  }
+  
+  .shipping i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .shipping p {
+    margin: 0;
+    font-size: 12px;
+    font-style: italic;
+  }
+  
