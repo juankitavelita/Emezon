@@ -1,5 +1,5 @@
 Estructura del proyecto; 
-
+ 
 proyecto_tienda/
     manage.py
     proyecto_tienda/
