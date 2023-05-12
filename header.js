@@ -3,5 +3,5 @@ window.addEventListener('scroll', function() {
   const logoDiv = document.querySelector('.logo');
   const logo = logoDiv.querySelector('img');
   header.classList.toggle('header2', window.scrollY > 0);
-  logo.setAttribute('src', (window.scrollY > 0) ? 'Logo_emezon_flecha.png' : 'Logo_emezon.png');
+  logo.setAttribute('src', (window.scrollY > 0) ? 'imagenes/Logo_emezon_flecha.png' : 'imagenes/Logo_emezon.png');
 });
