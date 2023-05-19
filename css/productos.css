@@ -136,7 +136,7 @@ header nav a:hover {
 
 .producto {
     display: block;
-    margin-top: 25px;
+    margin-top: 50px;
 }
 
 .producto[style="display: none;"] {
