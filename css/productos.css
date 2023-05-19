@@ -146,6 +146,7 @@ header nav a:hover {
     display: inline-block;
     position: relative;
     margin-top: 50px;
+    margin-right: 60px;
 }
   
 .select-filtro select {
