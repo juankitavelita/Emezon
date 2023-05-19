@@ -21,8 +21,20 @@
   </producto>
   <producto tipo="Reloj">
     <nombre>iPhone</nombre>
-    <precio>849</precio>
+    <precio>389</precio>
     <centimos>.95</centimos>
-    <foto>../images/iphone.png</foto>
+    <foto>../imagenes/applewatch.webp</foto>
+  </producto>
+  <producto tipo="Ordenador">
+    <nombre>Macintosh</nombre>
+    <precio>1199</precio>
+    <centimos>.95</centimos>
+    <foto>../imagenes/macintosh.png</foto>
+  </producto>
+  <producto tipo="Tablet">
+    <nombre>iPad Pro</nombre>
+    <precio>1495</precio>
+    <centimos>.99</centimos>
+    <foto>../imagenes/ipad.webp</foto>
   </producto>
 </tienda>
