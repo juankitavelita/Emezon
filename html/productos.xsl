@@ -46,16 +46,7 @@
                     </div>
                 </header>
                 <div id="contenedor" class="contenedor">
-                    <div class="filtro">
-                        <select onchange="filterProducts(this.value)">
-                            <option value="">Todos los productos</option>
-                            <xsl:for-each select="distinct-values(producto/@tipo)">
-                                <option>
-                                    <xsl:value-of select="." />
-                                </option>
-                            </xsl:for-each>
-                        </select>
-                    </div>
+                    
                     <xsl:for-each select="producto">
                         <div class="producto" data-tipo="{@tipo}">
                             <div>
