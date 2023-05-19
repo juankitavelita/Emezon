@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="../html/productos.xsl" type="text/xsl"?>
 <tienda>
-  <producto tipo="Telefono">
-    <nombre>iPhone</nombre>
+  <producto tipo="Portatil">
+    <nombre>Mac Book</nombre>
     <precio>999</precio>
     <centimos>.95</centimos>
-    <foto>../imagenes/imagen1.webp</foto>
+    <foto>../imagenes/macbook.webp</foto>
+  </producto>
+  <producto tipo="Portatil">
+    <nombre>Mac Book Pro</nombre>
+    <precio>1195</precio>
+    <centimos>.99</centimos>
+    <foto>../imagenes/macbookpro.webp</foto>
   </producto>
   <producto tipo="Telefono">
-    <nombre>Zapatos</nombre>
-    <precio>49</precio>
-    <centimos>.99</centimos>
-    <foto>https://example.com/zapatos.jpg</foto>
+    <nombre>iPhone</nombre>
+    <precio>849</precio>
+    <centimos>.95</centimos>
+    <foto>../images/iphone.png</foto>
   </producto>
-  <producto tipo="Telefono">
-    <nombre>Libro</nombre>
-    <precio>29</precio>
-    <centimos>.99</centimos>
-    <foto>https://example.com/libro.jpg</foto>
+  <producto tipo="Reloj">
+    <nombre>iPhone</nombre>
+    <precio>849</precio>
+    <centimos>.95</centimos>
+    <foto>../images/iphone.png</foto>
   </producto>
 </tienda>
