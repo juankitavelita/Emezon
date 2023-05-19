@@ -41,7 +41,7 @@
                             <a href="../html/productos.html">Productos</a>
                             <a href="../html/nosotros.html">Sobre nosotros</a>
                             <a href="../html/login.html">Iniciar sesión</a>
-                            <a href="../html/sign.html">Registrarse</a>
+                            <a href="../html/usuario.html">Cuenta</a>
                             <a href="#">Carrito</a>
                         </nav>
                     </div>
@@ -62,7 +62,7 @@
                             <img src="{foto}" alt="{nombre}"/>
                             <div class="informacion">
                                 <p><xsl:value-of select="nombre"/></p>
-                                <p class="precio">$ <xsl:value-of select="precio"/><span><xsl:value-of select="centimos"/> centimos</span></p>
+                                <p class="precio"><xsl:value-of select="precio"/><span><xsl:value-of select="centimos"/></span> €</p>
                                 <button>Comprar</button>
                             </div>
                         </div>

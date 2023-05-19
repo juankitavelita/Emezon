@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Emezon - Iniciar sesión</title>
-        <link rel="stylesheet" href="../css/login.css" type="text/css">
+        <link rel="stylesheet" href="../css/usuario.css" type="text/css">
     </head>
     <body>
         <header class="header">
@@ -21,19 +21,29 @@
         </header>
         <div id="contenedor">
             <div id="central">
-                <div id="login">
+                <div id="user">
                     <div class="titulo">
-                        Inicia sesión
+                    Completa tu perfil
                     </div>
-                    <form id="loginform">
+                    <form id="userform">
+                        <input type="text" name="usuario" placeholder="Nombre y apellido" required>
+
                         <input type="text" name="usuario" placeholder="Usuario" required>
+
+                        <input type="email" name="email" placeholder="Corre electrónico" required>
+
+                        <input type="date" name="usuario" required>
+
+                        <input type="password" placeholder="Contraseña actual" name="password" required>
                         
-                        <input type="password" placeholder="Contraseña" name="password" required>
+                        <input type="password" placeholder="Nueva contraseña" name="password" required>
+
+                        <input type="password" placeholder="Confirma contraseña" name="password" required>
                         
-                        <button type="submit" title="Ingresar" name="Ingresar">Iniciar sesión</button>
+                        <button type="submit" title="Ingresar" name="Ingresar">Confirmar cambios</button>
                     </form>
                     <div class="pie-form">
-                        <a href="#">¿Has perdido tu contraseña?</a>
+                        <a href="login.html">¿Quieres acceder? Inicia sesión ya!</a>
                         <a href="sign.html">¿No tienes cuenta? ¡Registrate ya!</a>
                     </div>
                 </div>
