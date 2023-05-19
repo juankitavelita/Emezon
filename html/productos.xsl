@@ -33,13 +33,13 @@
                     <xsl:for-each select="producto">
                         <div>
                             <xsl:element name="img">
-                            <xsl:attribute name="src">
-                                <xsl:value-of select="foto"/>
-                            </xsl:attribute>
-                        </xsl:element>
+                                <xsl:attribute name="src">
+                                    <xsl:value-of select="foto"/>
+                                </xsl:attribute>
+                            </xsl:element>
                             <div class="informacion">
                                 <p><xsl:value-of select="nombre"/></p>
-                                <p class="precio">$<xsl:value-of select="precio"/><span>.<xsl:value-of select="foto"/>centimos</span></p>
+                                <p class="precio">$ <xsl:value-of select="precio"/><span>.<xsl:value-of select="centimos"/> centimos</span></p>
                                 <button>Comprar</button>
                             </div>
                         </div>
