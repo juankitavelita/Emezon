@@ -20,13 +20,13 @@
     <foto>../imagenes/macbookpro.webp</foto>
   </producto>
   <producto tipo="Telefono">
-    <nombre>iPhone</nombre>
+    <nombre>iPhone 14</nombre>
     <precio>849</precio>
     <centimos>.95</centimos>
     <foto>../imagenes/iphone.png</foto>
   </producto>
   <producto tipo="Reloj">
-    <nombre>iPhone</nombre>
+    <nombre>Apple Watch 4</nombre>
     <precio>389</precio>
     <centimos>.95</centimos>
     <foto>../imagenes/applewatch.webp</foto>
