@@ -30,6 +30,20 @@
                     </div>
                 </header>
                 <div id="contenedor" class="contenedor">
+                    <xsl:for-each select="producto">
+                        <div>
+                            <xsl:element name="img">
+                            <xsl:attribute name="src">
+                                <xsl:value-of select="foto"/>
+                            </xsl:attribute>
+                        </xsl:element>
+                            <div class="informacion">
+                                <p><xsl:value-of select="nombre"/></p>
+                                <p class="precio">$<xsl:value-of select="precio"/><span>.<xsl:value-of select="foto"/>centimos</span></p>
+                                <button>Comprar</button>
+                            </div>
+                        </div>
+                    </xsl:for-each>
                     <div>
                         <img src="../imagenes/imagen1.webp" alt="producto 1"/>
                         <div class="informacion">

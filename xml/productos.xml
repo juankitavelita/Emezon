@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="../html/productos.xsl" type="text/xsl"?>
 <tienda>
-  <producto>
-    <nombre>Camiseta</nombre>
-    <tipo>Ropa</tipo>
-    <precio>19.99</precio>
-    <foto>https://example.com/camiseta.jpg</foto>
+  <producto tipo="Telefono">
+    <nombre>iPhone</nombre>
+    <precio>999</precio>
+    <céntimos>.95</céntimos>
+    <foto>../imagenes/imagen1.webp</foto>
   </producto>
-  <producto>
+  <producto tipo="Telefono">
     <nombre>Zapatos</nombre>
-    <tipo>Calzado</tipo>
-    <precio>49.99</precio>
+    <precio>49</precio>
+    <céntimos>.99</céntimos>
     <foto>https://example.com/zapatos.jpg</foto>
   </producto>
-  <producto>
+  <producto tipo="Telefono">
     <nombre>Libro</nombre>
-    <tipo>Libros</tipo>
-    <precio>29.99</precio>
+    <precio>29</precio>
+    <céntimos>.99</céntimos>
     <foto>https://example.com/libro.jpg</foto>
   </producto>
 </tienda>
