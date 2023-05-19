@@ -39,6 +39,7 @@
                         <nav> <!--Los botones-->
                             <a href="../index.html">Inicio</a>
                             <a href="../html/productos.html">Productos</a>
+                            <a href="../html/nosotros.html">Sobre nosotros</a>
                             <a href="../html/login.html">Iniciar sesión</a>
                             <a href="../html/sign.html">Registrarse</a>
                             <a href="#">Carrito</a>
