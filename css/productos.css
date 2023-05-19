@@ -33,14 +33,14 @@ header .logo {
 }
 
 header .logo img{
-	margin-top: 55px;
+	margin-top: 22px;
 	width: 300px;
 }
 
 header nav {
 	float:right;
 	line-height:200px;
-    padding-top: 50px;
+    padding-top: 45px;
 }
 
 header nav a {
