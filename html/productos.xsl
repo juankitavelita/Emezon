@@ -38,9 +38,9 @@
                         <div class="logo"><img src="../imagenes/Logo_emezon_flecha.png" alt="Logo de EMEZON"/></div>
                         <nav> <!--Los botones-->
                             <a href="../index.html">Inicio</a>
-                            <a href="productos.html">Productos</a>
-                            <a href="login.html">Iniciar sesión</a>
-                            <a href="sign.html">Registrarse</a>
+                            <a href="../html/productos.html">Productos</a>
+                            <a href="../html/login.html">Iniciar sesión</a>
+                            <a href="../html/sign.html">Registrarse</a>
                             <a href="#">Carrito</a>
                         </nav>
                     </div>
