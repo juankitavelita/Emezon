@@ -7,6 +7,12 @@
     <centimos>.95</centimos>
     <foto>../imagenes/macbook.webp</foto>
   </producto>
+  <producto tipo="Cascos">
+    <nombre>AirPods Pro</nombre>
+    <precio>349</precio>
+    <centimos>.95</centimos>
+    <foto>../imagenes/airpodpro.png</foto>
+  </producto>
   <producto tipo="Portatil">
     <nombre>Mac Book Pro</nombre>
     <precio>1195</precio>
