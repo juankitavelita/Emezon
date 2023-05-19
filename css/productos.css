@@ -40,6 +40,7 @@ header .logo img{
 header nav {
 	float:right;
 	line-height:200px;
+    padding-top: 50px;
 }
 
 header nav a {
