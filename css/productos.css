@@ -134,6 +134,14 @@ header nav a:hover {
     background-color: #2D4263;
 }
 
+.producto {
+    display: block;
+}
+
+.producto[style="display: none;"] {
+    display: none;
+}
+
 /* Estilos del footer */
 .pie-pagina{
     width: 100%;

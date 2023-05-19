@@ -45,21 +45,24 @@
                         </nav>
                     </div>
                 </header>
+                <div class="filtro">
+                    <select onchange="filterProducts(this.value)">
+                        <option value="">Todos los productos</option>
+                        <xsl:for-each select="producto">
+                            <option>
+                                <xsl:value-of select="@tipo"/>
+                            </option>
+                        </xsl:for-each>
+                    </select>
+                </div>
                 <div id="contenedor" class="contenedor">
-                    
                     <xsl:for-each select="producto">
                         <div class="producto" data-tipo="{@tipo}">
-                            <div>
-                                <xsl:element name="img">
-                                    <xsl:attribute name="src">
-                                        <xsl:value-of select="foto"/>
-                                    </xsl:attribute>
-                                </xsl:element>
-                                <div class="informacion">
-                                    <p><xsl:value-of select="nombre"/></p>
-                                    <p class="precio">$ <xsl:value-of select="precio"/><span><xsl:value-of select="centimos"/> centimos</span></p>
-                                    <button>Comprar</button>
-                                </div>
+                            <img src="{foto}" alt="{nombre}"/>
+                            <div class="informacion">
+                                <p><xsl:value-of select="nombre"/></p>
+                                <p class="precio">$ <xsl:value-of select="precio"/><span><xsl:value-of select="centimos"/> centimos</span></p>
+                                <button>Comprar</button>
                             </div>
                         </div>
                     </xsl:for-each>
