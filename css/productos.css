@@ -87,7 +87,7 @@ header nav a:hover {
     flex-wrap: wrap;
     gap: 50px;
     margin-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 55px;
 }
 .contenedor>div {
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
@@ -144,6 +144,7 @@ header nav a:hover {
 
 .producto {
     display: block;
+    margin-top: 25 px;;
 }
 
 .producto[style="display: none;"] {
