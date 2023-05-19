@@ -87,7 +87,7 @@ header nav a:hover {
 
 .portada .texto-portada {
     position: absolute;
-    top: 30%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -103,9 +103,9 @@ header nav a:hover {
 
 .portada .texto-portada2 {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
-    transform: translateX(-70%);
+    transform: translateX(-50%);
     text-align: center;
     color: #fff;
     z-index: 1;
