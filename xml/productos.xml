@@ -4,19 +4,19 @@
   <producto tipo="Telefono">
     <nombre>iPhone</nombre>
     <precio>999</precio>
-    <céntimos>.95</céntimos>
+    <centimos>.95</centimos>
     <foto>../imagenes/imagen1.webp</foto>
   </producto>
   <producto tipo="Telefono">
     <nombre>Zapatos</nombre>
     <precio>49</precio>
-    <céntimos>.99</céntimos>
+    <centimos>.99</centimos>
     <foto>https://example.com/zapatos.jpg</foto>
   </producto>
   <producto tipo="Telefono">
     <nombre>Libro</nombre>
     <precio>29</precio>
-    <céntimos>.99</céntimos>
+    <centimos>.99</centimos>
     <foto>https://example.com/libro.jpg</foto>
   </producto>
 </tienda>
