@@ -147,7 +147,7 @@ header nav a:hover {
 .texto-portada2 {
     position: absolute;
     top: 50%;
-    left: 5%;
+    left: 65%;
     transform: translateX(-50%);
     text-align: center;
     color: #fff;
@@ -157,6 +157,7 @@ header nav a:hover {
     font-size: 35px;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    left: 5%;
 }
   
 
