@@ -142,6 +142,50 @@ header nav a:hover {
     display: none;
 }
 
+.select-filtro {
+    display: inline-block;
+    position: relative;
+}
+  
+.select-filtro select {
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #243c56;
+    border: none;
+    border-radius: 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 200px;
+    cursor: pointer;
+}
+  
+.select-filtro select:focus {
+    outline: none;
+}
+  
+.select-filtro::after {
+    content: '\25BC';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #fff;
+    pointer-events: none;
+}
+  
+.select-filtro select option {
+    background-color: #243c56;
+    color: #fff;
+}
+  
+.select-filtro select option:checked {
+    background-color: #1c2b3d;
+}
+  
+
 /* Estilos del footer */
 .pie-pagina{
     width: 100%;

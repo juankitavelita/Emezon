@@ -45,7 +45,7 @@
                         </nav>
                     </div>
                 </header>
-                <div class="filtro">
+                <div class="filtro select-filtro">
                     <select onchange="filterProducts(this.value)">
                         <option value="">Todos los productos</option>
                         <xsl:for-each select="producto">
